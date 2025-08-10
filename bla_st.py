@@ -8,9 +8,9 @@ from email.message import EmailMessage
 # ------------------------
 # 1. Email config (local test: fill below; production: use Streamlit secrets!)
 # ------------------------
-EMAIL_USER = st.secrets.get("email_user", "YOUR_GMAIL@gmail.com")
-EMAIL_PASS = st.secrets.get("email_pass", "YOUR_APP_PASSWORD")
-NOTIFY_TO = st.secrets.get("notify_to", "RECIPIENT_EMAIL@gmail.com")
+EMAIL_USER = st.secrets.get("email_user", "2401030168gmail.com")
+EMAIL_PASS = st.secrets.get("email_pass", "OB6D5G3UP")
+NOTIFY_TO = st.secrets.get("notify_to", "akshataaryan511@gmail.com")
 SEND_EMAIL = True  # Turn to False if you don't want email
 
 # ------------------------
